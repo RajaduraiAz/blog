@@ -87,7 +87,7 @@ export default function NavbarAlt(props) {
                       />
                     ) : (
                       <span className="block text-center">
-                        Stablo
+                        Rajadurai Azhagudurai
                       </span>
                     )}
                   </Link>
@@ -101,7 +101,7 @@ export default function NavbarAlt(props) {
                       />
                     ) : (
                       <span className="block text-center">
-                        Stablo
+                        Rajadurai Azhagudurai
                       </span>
                     )}
                   </Link>
