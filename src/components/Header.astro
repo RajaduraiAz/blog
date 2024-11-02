@@ -1,6 +1,7 @@
 ---
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
+import SpeedInsights from "@vercel/speed-insights/astro";
 ---
 
 <header>
@@ -11,6 +12,7 @@ import { SITE_TITLE } from '../consts';
 			<HeaderLink href="https://rajaduraiaz.com">About</HeaderLink>
 		</div>
 	</nav>
+	<SpeedInsights />
 </header>
 <style>
 	header {
