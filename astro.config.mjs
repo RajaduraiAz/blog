@@ -11,5 +11,7 @@ export default defineConfig({
   site: 'https://blog.rajaduraiaz.com',
   integrations: [mdx(), sitemap()],
   output: 'server',
-  adapter: vercel()
+  adapter: vercel({
+    webAnalytics: { enabled: true }
+  }),
 });
