@@ -5,7 +5,11 @@ import { SITE_TITLE } from '../consts';
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h2><a href="#">{SITE_TITLE}</a></h2>
+		<div class="internal-links">
+			<HeaderLink href="#">Home</HeaderLink>
+			<HeaderLink href="https://rajaduraiaz.com">About</HeaderLink>
+		</div>
 	</nav>
 </header>
 <style>
@@ -18,6 +22,8 @@ import { SITE_TITLE } from '../consts';
 	h2 {
 		margin: 0;
 		font-size: 1em;
+		text-align: center;
+		vertical-align: middle;
 	}
 
 	h2 a,
